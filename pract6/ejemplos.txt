@@ -1,0 +1,26 @@
+ABB + manual
+./arbol -ab abb -init manual -trace n
+
+ABB + random
+./arbol -ab abb -init random 6 -trace n
+
+ABB + file
+./arbol -ab abb -init file 5 datos.txt -trace n
+
+AVL + manual, sin traza
+./arbol -ab avl -init manual -trace n
+
+AVL + manual, con traza
+./arbol -ab avl -init manual -trace y
+
+AVL + random, sin traza
+./arbol -ab avl -init random 4 -trace n
+
+AVL + random, con traza
+./arbol -ab avl -init random 3 -trace y
+
+AVL + file, sin traza
+./arbol -ab avl -init file 5 datos.txt -trace n
+
+AVL + file, con traza
+./arbol -ab avl -init file 5 datos.txt -trace y
